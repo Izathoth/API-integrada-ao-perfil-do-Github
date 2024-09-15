@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informações do Perfil GitHub</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            max-width: 600px;
+            background-color: #f4f4f4;
+        }
+        .perfil {
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+        }
+        .perfil h2 {
+            margin-bottom: 10px;
+        }
+        .perfil p, ul {
+            margin: 5px 0;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="perfil">
+        <h2>Informações do Perfil GitHub</h2>
+        <p id="nome">Nome: Carregando...</p>
+        <p id="bio">Biografia: Carregando...</p>
+        <p id="seguidores">Seguidores: Carregando...</p>
+        <p id="seguindo">Seguindo: Carregando...</p>
+        <p id="estrelas">Total de Estrelas: Carregando...</p>
+        <p id="repos-publicos">Repositórios Públicos: Carregando...</p>
+        <p id="url-perfil">URL do Perfil: Carregando...</p>
+        <h3>Repositórios Populares:</h3>
+        <ul id="repositorios-populares">Carregando...</ul>
+    </div>
+
+    <!-- Inclui o arquivo JavaScript -->
+    <script src="API.js"></script>
+
+</body>
+</html>
